@@ -1,9 +1,9 @@
 {
   "contractName": "Strings",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"String operations.\",\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/node_modules/@openzeppelin/contracts/utils/Strings.sol\":\"Strings\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/node_modules/@openzeppelin/contracts/utils/Strings.sol\":{\"keccak256\":\"0x391d3ba97ab6856a16b225d6ee29617ad15ff00db70f3b4df1ab5ea33aa47c9d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d636ba90bbbeed04a1ea7fe9ec2466757e30fd38ba2ca173636dbf69a518735e\",\"dweb:/ipfs/QmQwCB2BHnEuYR22PYt9HkpbgeFDhq4rHmaYqAZbX3WRC7\"]}},\"version\":1}",
-  "bytecode": "0x60566050600b82828239805160001a6073146043577f4e487b7100000000000000000000000000000000000000000000000000000000600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220a4c5e799a8ae41c897a6a5e4fb664d0553c489ab654961b383de71010cd7533364736f6c63430008000033",
-  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220a4c5e799a8ae41c897a6a5e4fb664d0553c489ab654961b383de71010cd7533364736f6c63430008000033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.9+commit.e5eed63a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"String operations.\",\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/node_modules/@openzeppelin/contracts/utils/Strings.sol\":\"Strings\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/node_modules/@openzeppelin/contracts/utils/Strings.sol\":{\"keccak256\":\"0x391d3ba97ab6856a16b225d6ee29617ad15ff00db70f3b4df1ab5ea33aa47c9d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d636ba90bbbeed04a1ea7fe9ec2466757e30fd38ba2ca173636dbf69a518735e\",\"dweb:/ipfs/QmQwCB2BHnEuYR22PYt9HkpbgeFDhq4rHmaYqAZbX3WRC7\"]}},\"version\":1}",
+  "bytecode": "0x60566050600b82828239805160001a6073146043577f4e487b7100000000000000000000000000000000000000000000000000000000600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212205a4bb9b2097c955d5d503bfb7cd87488f91a870d76d12f4b7eba8085d67bf39f64736f6c63430008090033",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212205a4bb9b2097c955d5d503bfb7cd87488f91a870d76d12f4b7eba8085d67bf39f64736f6c63430008090033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
@@ -36,6 +36,7 @@
       {
         "abstract": false,
         "baseContracts": [],
+        "canonicalName": "Strings",
         "contractDependencies": [],
         "contractKind": "library",
         "documentation": {
@@ -50,6 +51,7 @@
           1780
         ],
         "name": "Strings",
+        "nameLocation": "101:7:9",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -57,6 +59,7 @@
             "id": 1583,
             "mutability": "constant",
             "name": "_HEX_SYMBOLS",
+            "nameLocation": "140:12:9",
             "nodeType": "VariableDeclaration",
             "scope": 1780,
             "src": "115:58:9",
@@ -190,6 +193,7 @@
                       "id": 1599,
                       "mutability": "mutable",
                       "name": "temp",
+                      "nameLocation": "612:4:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1661,
                       "src": "604:12:9",
@@ -238,6 +242,7 @@
                       "id": 1603,
                       "mutability": "mutable",
                       "name": "digits",
+                      "nameLocation": "642:6:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1661,
                       "src": "634:14:9",
@@ -411,6 +416,7 @@
                       "id": 1618,
                       "mutability": "mutable",
                       "name": "buffer",
+                      "nameLocation": "755:6:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1661,
                       "src": "742:19:9",
@@ -991,6 +997,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "toString",
+            "nameLocation": "284:8:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1587,
@@ -1001,6 +1008,7 @@
                   "id": 1586,
                   "mutability": "mutable",
                   "name": "value",
+                  "nameLocation": "301:5:9",
                   "nodeType": "VariableDeclaration",
                   "scope": 1662,
                   "src": "293:13:9",
@@ -1034,6 +1042,7 @@
                   "id": 1589,
                   "mutability": "mutable",
                   "name": "",
+                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 1662,
                   "src": "331:13:9",
@@ -1160,6 +1169,7 @@
                       "id": 1678,
                       "mutability": "mutable",
                       "name": "temp",
+                      "nameLocation": "1238:4:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1702,
                       "src": "1230:12:9",
@@ -1208,6 +1218,7 @@
                       "id": 1682,
                       "mutability": "mutable",
                       "name": "length",
+                      "nameLocation": "1268:6:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1702,
                       "src": "1260:14:9",
@@ -1473,6 +1484,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "toHexString",
+            "nameLocation": "1092:11:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1666,
@@ -1483,6 +1495,7 @@
                   "id": 1665,
                   "mutability": "mutable",
                   "name": "value",
+                  "nameLocation": "1112:5:9",
                   "nodeType": "VariableDeclaration",
                   "scope": 1703,
                   "src": "1104:13:9",
@@ -1516,6 +1529,7 @@
                   "id": 1668,
                   "mutability": "mutable",
                   "name": "",
+                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 1703,
                   "src": "1142:13:9",
@@ -1562,6 +1576,7 @@
                       "id": 1714,
                       "mutability": "mutable",
                       "name": "buffer",
+                      "nameLocation": "1648:6:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1778,
                       "src": "1635:19:9",
@@ -2106,6 +2121,7 @@
                         "id": 1737,
                         "mutability": "mutable",
                         "name": "i",
+                        "nameLocation": "1755:1:9",
                         "nodeType": "VariableDeclaration",
                         "scope": 1765,
                         "src": "1747:9:9",
@@ -2432,6 +2448,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "toHexString",
+            "nameLocation": "1544:11:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1709,
@@ -2442,6 +2459,7 @@
                   "id": 1706,
                   "mutability": "mutable",
                   "name": "value",
+                  "nameLocation": "1564:5:9",
                   "nodeType": "VariableDeclaration",
                   "scope": 1779,
                   "src": "1556:13:9",
@@ -2468,6 +2486,7 @@
                   "id": 1708,
                   "mutability": "mutable",
                   "name": "length",
+                  "nameLocation": "1579:6:9",
                   "nodeType": "VariableDeclaration",
                   "scope": 1779,
                   "src": "1571:14:9",
@@ -2501,6 +2520,7 @@
                   "id": 1711,
                   "mutability": "mutable",
                   "name": "",
+                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 1779,
                   "src": "1610:13:9",
@@ -2533,7 +2553,8 @@
           }
         ],
         "scope": 1781,
-        "src": "93:1885:9"
+        "src": "93:1885:9",
+        "usedErrors": []
       }
     ],
     "src": "33:1946:9"
@@ -2563,6 +2584,7 @@
       {
         "abstract": false,
         "baseContracts": [],
+        "canonicalName": "Strings",
         "contractDependencies": [],
         "contractKind": "library",
         "documentation": {
@@ -2577,6 +2599,7 @@
           1780
         ],
         "name": "Strings",
+        "nameLocation": "101:7:9",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -2584,6 +2607,7 @@
             "id": 1583,
             "mutability": "constant",
             "name": "_HEX_SYMBOLS",
+            "nameLocation": "140:12:9",
             "nodeType": "VariableDeclaration",
             "scope": 1780,
             "src": "115:58:9",
@@ -2717,6 +2741,7 @@
                       "id": 1599,
                       "mutability": "mutable",
                       "name": "temp",
+                      "nameLocation": "612:4:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1661,
                       "src": "604:12:9",
@@ -2765,6 +2790,7 @@
                       "id": 1603,
                       "mutability": "mutable",
                       "name": "digits",
+                      "nameLocation": "642:6:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1661,
                       "src": "634:14:9",
@@ -2938,6 +2964,7 @@
                       "id": 1618,
                       "mutability": "mutable",
                       "name": "buffer",
+                      "nameLocation": "755:6:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1661,
                       "src": "742:19:9",
@@ -3518,6 +3545,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "toString",
+            "nameLocation": "284:8:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1587,
@@ -3528,6 +3556,7 @@
                   "id": 1586,
                   "mutability": "mutable",
                   "name": "value",
+                  "nameLocation": "301:5:9",
                   "nodeType": "VariableDeclaration",
                   "scope": 1662,
                   "src": "293:13:9",
@@ -3561,6 +3590,7 @@
                   "id": 1589,
                   "mutability": "mutable",
                   "name": "",
+                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 1662,
                   "src": "331:13:9",
@@ -3687,6 +3717,7 @@
                       "id": 1678,
                       "mutability": "mutable",
                       "name": "temp",
+                      "nameLocation": "1238:4:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1702,
                       "src": "1230:12:9",
@@ -3735,6 +3766,7 @@
                       "id": 1682,
                       "mutability": "mutable",
                       "name": "length",
+                      "nameLocation": "1268:6:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1702,
                       "src": "1260:14:9",
@@ -4000,6 +4032,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "toHexString",
+            "nameLocation": "1092:11:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1666,
@@ -4010,6 +4043,7 @@
                   "id": 1665,
                   "mutability": "mutable",
                   "name": "value",
+                  "nameLocation": "1112:5:9",
                   "nodeType": "VariableDeclaration",
                   "scope": 1703,
                   "src": "1104:13:9",
@@ -4043,6 +4077,7 @@
                   "id": 1668,
                   "mutability": "mutable",
                   "name": "",
+                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 1703,
                   "src": "1142:13:9",
@@ -4089,6 +4124,7 @@
                       "id": 1714,
                       "mutability": "mutable",
                       "name": "buffer",
+                      "nameLocation": "1648:6:9",
                       "nodeType": "VariableDeclaration",
                       "scope": 1778,
                       "src": "1635:19:9",
@@ -4633,6 +4669,7 @@
                         "id": 1737,
                         "mutability": "mutable",
                         "name": "i",
+                        "nameLocation": "1755:1:9",
                         "nodeType": "VariableDeclaration",
                         "scope": 1765,
                         "src": "1747:9:9",
@@ -4959,6 +4996,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "toHexString",
+            "nameLocation": "1544:11:9",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 1709,
@@ -4969,6 +5007,7 @@
                   "id": 1706,
                   "mutability": "mutable",
                   "name": "value",
+                  "nameLocation": "1564:5:9",
                   "nodeType": "VariableDeclaration",
                   "scope": 1779,
                   "src": "1556:13:9",
@@ -4995,6 +5034,7 @@
                   "id": 1708,
                   "mutability": "mutable",
                   "name": "length",
+                  "nameLocation": "1579:6:9",
                   "nodeType": "VariableDeclaration",
                   "scope": 1779,
                   "src": "1571:14:9",
@@ -5028,6 +5068,7 @@
                   "id": 1711,
                   "mutability": "mutable",
                   "name": "",
+                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 1779,
                   "src": "1610:13:9",
@@ -5060,18 +5101,19 @@
           }
         ],
         "scope": 1781,
-        "src": "93:1885:9"
+        "src": "93:1885:9",
+        "usedErrors": []
       }
     ],
     "src": "33:1946:9"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+    "version": "0.8.9+commit.e5eed63a.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-05T17:38:13.090Z",
+  "updatedAt": "2021-11-07T10:13:57.559Z",
   "devdoc": {
     "details": "String operations.",
     "kind": "dev",
